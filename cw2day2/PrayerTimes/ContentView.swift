@@ -82,19 +82,13 @@ struct ContentView: View {
                 }
 
                 
-                
-                
                 HStack {
                     
                     Text("٣:٣٧ ص")
                     Spacer()
                     Text("الفجر")
                         
-                   
-                    
-                 
-                    
-                    
+               
                 }
                 .foregroundColor(.white)
                 .frame(minWidth: 300, idealWidth: 400, maxWidth: .infinity)
@@ -109,10 +103,6 @@ struct ContentView: View {
                     Text("الشروق")
                         
                    
-                    
-                 
-                    
-                    
                 }
                 .foregroundColor(.white)
                 .frame(minWidth: 300, idealWidth: 400, maxWidth: .infinity)
@@ -124,10 +114,6 @@ struct ContentView: View {
                     Text("١١:٥٤ ص")
                     Spacer()
                     Text("الظُهر")
-                        
-                   
-                    
-                 
                     
                     
                 }
@@ -144,51 +130,42 @@ struct ContentView: View {
                         Spacer()
                         Text("العصر")
                             
-                       
-                        
-                     
-                        
-                        
+                   
                     }
                     .foregroundColor(.white)
                     .frame(minWidth: 300, idealWidth: 400, maxWidth: .infinity)
                         .padding()
                         .background(Color.white.opacity(0.2))
                     
-                                                                                                                HStack {
+HStack {
                                                                                                                     
-                                                                                                                    Text("٦:٤٢ م")
-                                                                                                                    Spacer()
-                                                                                                                    Text("المغرب")
-                                                                                                                        
+    Text("٦:٤٢ م")
+    Spacer()
+    Text("المغرب")
                                                                                                                    
                                                                                                                     
-                                                                                                                 
+           }
+                .foregroundColor(.white)
+                .frame(minWidth: 300, idealWidth: 400, maxWidth: .infinity)
+                .padding()
+                .background(Color.white.opacity(0.2))
+                    
+ HStack {
                                                                                                                     
-                                                                                                                    
-                                                                                                                }
-                                                                                                                .foregroundColor(.white)
-                                                                                                                .frame(minWidth: 300, idealWidth: 400, maxWidth: .infinity)
-                                                                                                                    .padding()
-                                                                                                                    .background(Color.white.opacity(0.2))
-                                                                                                                HStack {
-                                                                                                                    
-                                                                                                                    Text("٨:٠٨ م")
-                                                                                                                    Spacer()
-                                                                                                                    Text("العشاء")
+      Text("٨:٠٨ م")
+      Spacer()
+      Text("العشاء")
                                                                                                                         
-                                                                                                                   
-                                                                                                                    
-                                                                                                                 
                                                                                                                     
                                                                                                                     
-                                                                                                                }
-                                                                                                                .foregroundColor(.white)
-                                                                                                                                                                            .frame(minWidth: 300, idealWidth: 400, maxWidth: .infinity)
-                                                                                                                    .padding()
-                                                                                                                    .background(Color.white.opacity(0.2))
-                                                                                                                Spacer()
-                                                                                                            }
+            }
+               .foregroundColor(.white)
+               .frame(minWidth: 300, idealWidth: 400, maxWidth: .infinity)
+               .padding()
+               .background(Color.white.opacity(0.2))
+                Spacer()
+                    
+                    }
                 
             }
             
@@ -201,24 +178,6 @@ struct ContentView: View {
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 struct ContentView_Previews: PreviewProvider {
